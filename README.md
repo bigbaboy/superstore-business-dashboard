@@ -1,6 +1,6 @@
 # Superstore Business Dashboard
 
-A team academic dashboard for exploring **sales, profitability, customer behavior and returns** with Django and D3.js.
+An individual academic dashboard for exploring **sales, profitability, customer behavior and returns** with Django and D3.js.
 
 ## Business questions
 
@@ -28,8 +28,8 @@ The interface organizes Q1–Q13 and TQ1–TQ3 views. Chart modules cover countr
 ## Run locally
 
 ```bash
-git clone https://github.com/bigbaboy/-DV118-.git
-cd ./-DV118-
+git clone https://github.com/bigbaboy/superstore-business-dashboard.git
+cd superstore-business-dashboard
 python -m venv .venv
 ```
 
@@ -57,6 +57,6 @@ Django serves the page and static assets. The D3 scripts load CSV files for anal
 - Data cleaning and RFM derivation are not fully reproduced by a separate preparation pipeline in this repository.
 - Dataset-specific joins, denominators and missing values should be checked before using charts for decisions.
 - No causal finding, production deployment or quantified business improvement is claimed.
-- Further work: reproducible data preparation, metric definitions, automated aggregate checks and a documented team contribution breakdown.
+- Further work: reproducible data preparation, metric definitions, automated aggregate checks and application screenshots.
 
-**Context:** Academic team project. The dashboard's original page lists three student identifiers.
+**Context:** Individual academic project by Lê Minh Đạt, developed with AI-assisted coding.
